@@ -1,0 +1,7 @@
+_errors:
+    resource: '@FrameworkBundle/Resources/config/routing/errors.xml'
+    prefix: /_error
+
+_fakelogin:
+    path: /_login
+    controller: App\Controller\SecurityController::index

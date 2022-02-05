@@ -1,0 +1,7 @@
+security:
+  firewalls:
+    main:
+      guard:
+        authenticators:
+          - App\Test\Security\GoogleAuthenticator
+        entry_point: App\Test\Security\GoogleAuthenticator
